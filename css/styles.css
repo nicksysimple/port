@@ -1,0 +1,238 @@
+header .nav{
+  background-color: grey;
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 5px;
+}
+header .nav ul{
+  list-style: none;
+  padding: 5px;
+}
+header .nav ul li{
+  float: left;
+  color: white;
+  margin-left: 170px;
+  font-size: 20px;
+}
+header .nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+header a:hover{
+  background-color: black;
+  height: 20px;
+  border-radius: 5px;
+  padding: 4px;
+}
+.content{
+  padding: 10px;
+}
+.content img {
+  margin-top: 10px;
+  float: left;
+  overflow: hidden;
+  width: 55%;
+}
+.about{
+   margin-top: 10px;
+   float: left;
+   margin-left: 40px;
+   width: 35%;
+   color: white;
+   border-radius: 5px;
+   background-color: grey;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+.about p{
+  padding: 5px;
+  line-height: 1.7;
+  font-size: 16px;
+}
+.about h2{
+  text-align: center;
+  width: 100%;
+}
+.about h3{
+  text-align: center;
+}
+.footer{
+  background-color: grey;
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+  float: left;
+  border-radius: 5px;
+}
+.footer p{
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+#education{
+  display: none;
+}
+#education h2{
+ text-align: center;
+}
+
+.well {
+  width: 45%;
+  float: left;
+  margin-left: 20px;
+}
+.well h3{
+  text-align: center;
+}
+#contacts{
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: grey;
+  display: none;
+  color: white;
+}
+#contacts .box{
+  padding: 7px;
+}
+#contacts .box p{
+  font-family: monospace;
+}
+#contacts .box h4{
+  text-align: center;
+  font-weight: bold;
+}
+a.active{
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+#projects{
+  display: none;
+  float: left;
+  background-color: grey;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+#projects ul li{
+list-style: none;
+font-size: 30px;
+}
+@media screen and (max-width: 480px){
+  header .nav{
+    margin-top: 10px;
+    height: 120px;
+  }
+  header .nav ul li{
+    font-size: 8px;
+    width: 80%;
+    display: block;
+  }
+  header a:hover{
+    background-color: black;
+  }
+  .content{
+    padding: 5px;
+  }
+  .content img {
+    margin-top: 5px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .about{
+     margin-top: 5px;
+     float: left;
+     margin-left: 10%;
+     width: 80%;
+  }
+  .about p{
+    padding: 5px;
+    font-size: 12px;
+  }
+  .about h2{
+ font-size: 25px;
+  }
+  .about h3{
+    font-size: 20px;
+  }
+  #education h2{
+   font-size: 25px;
+  }
+
+  .well {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+  }
+  .well h3{
+    text-align: center;
+  }
+  #contacts .box{
+    background-color: grey;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 5px;
+    text-align: inherit;
+    width: 90%;
+  }
+  #contacts p{
+    font-size: 10px;
+  }
+  #projects{
+    width: 90%;
+    margin-left: 5%;
+    text-align: inherit;
+  }
+  #projects ul li{
+  font-size: 20px;
+  }
+  #projects p{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:900px){
+  header .nav ul li{
+    margin-left: 70px;
+    font-size: 20px;
+  }
+  header a:hover{
+    background-color: black;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .content img {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .about{
+     margin-left: 10%;
+     width: 80%;
+  }
+  .about p{
+    font-size: 20px;
+  }
+  .about h2{
+ font-size: 30px;
+  }
+  .about h3{
+    font-size: 25px;
+  }
+  #contacts .box{
+    border-radius: 5px;
+    padding: 5px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  #contacts .box p{
+    font-size: 15px;
+  }
+  #contacts h4{
+    color: white;
+  }
+}
